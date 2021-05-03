@@ -1,0 +1,22 @@
+Questions:
+1.	(5 points)  How are abstract classes used in this lab?
+
+          a.	Abstract classes are used in this lab from our general Bird class. The general Bird abstract class
+               was created that had some methods defined but there were some things related to a specific bird that 
+               could not be defined which is why/when abstract classes are helpful.From the Bird class, 2 subclasses were 
+               extended: the Hummingbird and the Penguin class.
+
+2.	(5 points)  Why do we sometimes not want to use protected?
+          a.	You don’t always want to use protected because it allows other potential coders to redefine a variable
+               that you may have wanted to keep. Protected is good to use between classes but  not always the best to maintain
+               encapsulation of data. 
+
+
+3.	(5 points)  Summarize what inheritance does.
+          a.	Inheritance creates classes that are built upon existing classes (or parent classes).  It allows the 
+               subclasses to use/inherit the methods and fields of the parent class, but also allows you to add new methods 
+               to the subclass. 
+
+4.	(5 points)  What happens if we don’t override all abstract methods in an abstract class?
+          a.	You get an error that the method is not defined in the extended class, but it is defined in the abstract class.
+                You must override all abstract methods.
